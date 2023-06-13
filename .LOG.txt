@@ -1,0 +1,57 @@
+.LOG
+
+Curso básico de JAVA, Alura.
+
+método formatted
+
+barra dula faz comentários
+
+/* e */ também fazem comentários
+
+
+
+
+text blocks
+
+
+16:56 04/06/2023
+
+
+casting - conversão de dados
+tabela de castng
+casting implicito e explicito
+
+para fazer um casting de um float para int a escrita é
+
+int variavelcastingInt = (int) variavelDouble
+
+Switch e Case
+
+funciona quando uma variável possui vários possiveis valores e cada case trata o valor em caso de igualdade.
+
+exemplo:
+
+int notaDoFilme1 = 6;
+
+        switch (notaDoFilme1) {
+            case 1:
+                // código a ser executado se a expressão for igual a valor1
+                System.out.println("Valor menor que 5");
+                break;
+            case 2:
+                // código a ser executado se a expressão for igual a valor2
+                System.out.println("Valor maior que 5");
+                break;
+            case 6:
+                // código a ser executado se a expressão for igual a valor3
+                System.out.println("Valor igual a 6");
+                break;
+            default:
+                System.out.println("Valor não se enquadra na expressão");
+                break;
+
+Leitura de teclado
+
+Scanner leitura = new Scanner(System.in);
+        System.out.println("Digite seu filme favorito.");
+        String filme = leitura.nextLine();
