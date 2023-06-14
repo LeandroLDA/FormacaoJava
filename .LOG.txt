@@ -59,3 +59,15 @@ Scanner leitura = new Scanner(System.in);
 
 
 Adicionado texto pelo Replit
+
+Adicionado texto pelo InteliJ
+
+
+check list
+
+
+Inicializar dados do cliente
+menu de opções
+ visualização de saldo
+ enviar valor
+ receber valor

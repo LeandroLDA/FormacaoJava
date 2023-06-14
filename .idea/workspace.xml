@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e668be2e-42de-4f7e-8b0e-5c39344aea1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="e668be2e-42de-4f7e-8b0e-5c39344aea1f" name="Changes" comment="Adicionado texto ao .LOG pelo InteliJ">
+      <change beforePath="$PROJECT_DIR$/.LOG.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.LOG.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Qi5lt0uiPDOtYLT8C8mfghuO33" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,6 +45,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/leand/Documents/Alura/Java/JavaBasico/PrimeiroProjeto/src/Main.java",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
     "two.files.diff.last.used.folder": "C:/Users/leand/Documents/Alura/Java/JavaBasico/PrimeiroProjeto",
     "vue.rearranger.settings.migration": "true"
   }
@@ -71,10 +77,23 @@
       <workItem from="1686006150390" duration="7548000" />
       <workItem from="1686179881980" duration="2871000" />
       <workItem from="1686692650247" duration="2108000" />
+      <workItem from="1686701603196" duration="3379000" />
     </task>
+    <task id="LOCAL-00001" summary="Adicionado texto ao .LOG pelo InteliJ">
+      <created>1686702810961</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686702810961</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionado texto ao .LOG pelo InteliJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionado texto ao .LOG pelo InteliJ" />
   </component>
 </project>
