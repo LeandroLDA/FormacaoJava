@@ -55,3 +55,7 @@ Leitura de teclado
 Scanner leitura = new Scanner(System.in);
         System.out.println("Digite seu filme favorito.");
         String filme = leitura.nextLine();
+
+
+
+Adicionado texto pelo Replit
