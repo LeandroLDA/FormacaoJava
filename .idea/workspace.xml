@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e668be2e-42de-4f7e-8b0e-5c39344aea1f" name="Changes" comment="Adicionado texto ao .LOG pelo InteliJ">
-      <change beforePath="$PROJECT_DIR$/.LOG.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.LOG.txt" afterDir="false" />
+    <list default="true" id="e668be2e-42de-4f7e-8b0e-5c39344aea1f" name="Changes" comment="Removido módulos desnecessários vindo das aulas, e criada classe DesafioJava para que o projeto fique organizado e funcional.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,23 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/leand/Documents/Alura/Java/JavaBasico/PrimeiroProjeto",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/leand/Documents/Alura/Java/JavaBasico/PrimeiroProjeto/src/Main.java",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "two.files.diff.last.used.folder": "C:/Users/leand/Documents/Alura/Java/JavaBasico/PrimeiroProjeto",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/leand/Documents/Alura/Java/JavaBasico/DesafioJava&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/leand/Documents/Alura/Java/JavaBasico/PrimeiroProjeto/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
+    &quot;two.files.diff.last.used.folder&quot;: &quot;C:/Users/leand/Documents/Alura/Java/JavaBasico/PrimeiroProjeto&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -78,6 +77,8 @@
       <workItem from="1686179881980" duration="2871000" />
       <workItem from="1686692650247" duration="2108000" />
       <workItem from="1686701603196" duration="3379000" />
+      <workItem from="1686707466074" duration="803000" />
+      <workItem from="1686787051290" duration="2529000" />
     </task>
     <task id="LOCAL-00001" summary="Adicionado texto ao .LOG pelo InteliJ">
       <created>1686702810961</created>
@@ -86,14 +87,33 @@
       <option name="project" value="LOCAL" />
       <updated>1686702810961</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Removido módulos desnecessários vindo das aulas, e criada classe DesafioJava para que o projeto fique organizado e funcional.">
+      <created>1686707863821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1686707863821</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adicionado texto ao .LOG pelo InteliJ" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado texto ao .LOG pelo InteliJ" />
+    <MESSAGE value="Removido módulos desnecessários vindo das aulas, e criada classe DesafioJava para que o projeto fique organizado e funcional." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removido módulos desnecessários vindo das aulas, e criada classe DesafioJava para que o projeto fique organizado e funcional." />
   </component>
 </project>
