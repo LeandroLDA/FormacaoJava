@@ -14,9 +14,7 @@ public class Main {
         Bem vindo ao Banco Boa vida!!
 
         %s, é um prazer tê lo cono nosso cliente.
-
         Sua conta é do tipo conta %s
-
         Este é o seu saldo atual: RS %f.
 
         Escolha abaixo o que deseja fazer.
@@ -31,38 +29,25 @@ public class Main {
       Scanner scanner = new Scanner(System.in);
 
       while (opcao != 4) {
-        System.out.println(menu);
+        System.out.println(String.format(menu,nome,tipoConta,saldo));
         opcao = scanner.nextInt();
 
         if (opcao == 1) {
             System.out.println("Seu saldo é: RS " + saldo);
             }else if (opcao == 2) {
-            System.out.println("Quanto deseja transferir? ");
-            valor = scanner.nextDouble();
+               System.out.println("Quanto deseja transferir? ");
+               valor = scanner.nextDouble();
             if (saldo < valor) {
                 System.out.println("Saldo insuficiente para a operação");
             } else
                 saldo -= valor;
                 System.out.println("Seu saldo atualizado é: RS " + saldo);
-        }else if (opcao == 3){
-            System.out.println("Quanto deseja depositar? ");
-            valor = scanner.nextDouble();
-            saldo += valor;
-            System.out.println("Seu saldo atualizado é: RS " + saldo);
+            }else if (opcao == 3){
+               System.out.println("Quanto deseja depositar? ");
+                valor = scanner.nextDouble();
+               saldo += valor;
+               System.out.println("Seu saldo atualizado é: RS " + saldo);
         }
-        }
-
-        /* switch (opcao) {
-         case 1:
-           System.out.println("Escolhida opção 1.");
-          break;
-         case 2:
-           System.out.println("Escolhida opção 2.");
-          break;
-         case 3:
-           System.out.println("Escolhida opção 3.");
-          break;
-       }*/
+      }
     }
   }
-
